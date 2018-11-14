@@ -1,5 +1,11 @@
-Produtos json
+Produto json
     nome        Text
     preco       Double
     qtEstoque   Int
+    deriving Show
+
+Fornecedor
+    nome                    Text
+    produtosFornecidos      Text
+    qtProdutosFornecidos    Int
     deriving Show
