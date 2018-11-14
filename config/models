@@ -17,3 +17,10 @@ Cliente json
     cpf         Text
     telefone    Text
     deriving Show
+
+Funcionario json
+    nome        Text
+    registro    Int
+    cargo       Text
+    salario     Double
+    deriving Show
