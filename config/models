@@ -4,8 +4,16 @@ Produto json
     qtEstoque   Int
     deriving Show
 
-Fornecedor
+Fornecedor json
     nome                    Text
     produtosFornecidos      Text
     qtProdutosFornecidos    Int
+    deriving Show
+
+Cliente json
+    nome        Text
+    endereco    Text
+    rg          Text
+    cpf         Text
+    telefone    Text
     deriving Show
