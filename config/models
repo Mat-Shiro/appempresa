@@ -24,3 +24,8 @@ Funcionario json
     cargo       Text
     salario     Double
     deriving Show
+
+Patrimonio json
+    nome        Text
+    descricao   Text
+    deriving Show
