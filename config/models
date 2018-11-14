@@ -1,29 +1,5 @@
-Player
+Produtos json
     nome        Text
-    email       Text
-    senha       Text
-    deriving Show
-
-Influencias json
-    nome        Text
-    ativa       Text
-    passiva     Text
-    deriving Show
-
-Super json
-    nome        Text
-    ativa       Text
-    passiva     Text
-    deriving Show
-
-Sugestao json
-    nome        Text
-    ativa       Text
-    passiva     Text
-    plaid       PlayerId
-    deriving Show
-
-Ranking json
-    rank        Int
-    plaid       PlayerId
+    preco       Double
+    qtEstoque   Int
     deriving Show
